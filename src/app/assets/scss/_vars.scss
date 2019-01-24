@@ -23,13 +23,13 @@ $font-italic: $PT_Sans-Web-Italic;
 
 
 //color palette
-
+$primary: #3d6cb0;
 $bg-body: #fff;
-$bg-skills: #e6e6e6;
+$bg-skills: #353333;
 
 $default-color: #000;
 $text-color: $default-color;
-$text-primary: #3d6cb0;
+$text-primary: $primary;
 
 $header-h1: $default-color;
 $header-h2: $default-color;
