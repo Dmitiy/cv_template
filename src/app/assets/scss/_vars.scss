@@ -1,0 +1,37 @@
+// path
+
+// $path-img: '../img';
+$path-fonts: '../fonts/PT_Sans';
+
+//fonts
+$font-family: 'Myriad Pro',
+'PT Sans',
+'Roboto',
+'Helvetica',
+'Courier New',
+sans-serif;
+
+$PT_Sans-Web-Bold : 'PT_Sans-Web-Bold';
+$PT_Sans-Web-BoldItalic : 'PT_Sans-Web-BoldItalic';
+$PT_Sans-Web-Italic : 'PT_Sans-Web-Italic';
+$PT_Sans-Web-Regular : 'PT_Sans-Web-Regular';
+
+$font-regular: $PT_Sans-Web-Regular;
+$font-bold: $PT_Sans-Web-Bold;
+$font-boldItalic: $PT_Sans-Web-BoldItalic;
+$font-italic: $PT_Sans-Web-Italic;
+
+
+//color palette
+
+$bg-body: #fff;
+$bg-skills: #e6e6e6;
+
+$default-color: #000;
+$text-color: $default-color;
+$text-primary: #3d6cb0;
+
+$header-h1: $default-color;
+$header-h2: $default-color;
+$header-h3: $default-color;
+$header-h4: $text-primary;
