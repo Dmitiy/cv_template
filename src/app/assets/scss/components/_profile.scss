@@ -1,0 +1,17 @@
+@import './_vars.scss';
+
+.profile {
+    margin-bottom: 90px;
+
+    .header-title {
+        margin-bottom: 36px;
+    }
+
+    article {
+        p {
+            font-size: 30.86px;
+            font-weight: normal;
+            font-family: $font-regular;
+        }
+    }
+}

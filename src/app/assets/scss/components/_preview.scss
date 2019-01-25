@@ -1,0 +1,41 @@
+@import './_vars.scss';
+
+.preview {
+    margin-bottom: 165px;
+
+    .preview__logo {
+        margin-bottom: 75px;
+
+        a {
+            display: inline-block;
+            border: 3px solid $primary;
+            padding: 27px;
+
+            img {
+                width: 405px;
+                height: 405px;
+                background-color: $primary;
+            }
+        }
+    }
+
+    .preview__title {
+        h1 {
+            font-size: 104px;
+            font-family: $font-regular;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 124px;
+            font-weight: bold;
+            font-family: $font-bold;
+            margin-bottom: 48px;
+        }
+
+
+        p {
+            font-size: 50px;
+        }
+    }
+}
