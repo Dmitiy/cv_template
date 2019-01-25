@@ -1,0 +1,31 @@
+@import './_vars.scss';
+
+.contact {
+    .header-title {
+        margin-bottom: 70px;
+    }
+
+    .contact-form {
+        .contact-form__item {
+            margin-bottom: 80px;
+            display: flex;
+            align-items: center;
+
+            label {
+                flex-basis: 260px;
+                color: $primary-color;
+                font-size: 41px;
+                font-family: $font-bold;
+            }
+
+            input[type='text'],
+            input[type='email'] {
+                border: 0;
+                outline: 0;
+                background-color: transparent;
+                font-size: 41px;
+                font-family: $font-regular;
+            }
+        }
+    }
+}

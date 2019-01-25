@@ -8,13 +8,13 @@
 
         a {
             display: inline-block;
-            border: 3px solid $primary;
+            border: 3px solid $primary-color;
             padding: 27px;
 
             img {
                 width: 405px;
                 height: 405px;
-                background-color: $primary;
+                background-color: $primary-color;
             }
         }
     }

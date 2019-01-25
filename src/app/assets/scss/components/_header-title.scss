@@ -1,0 +1,33 @@
+@import './_vars.scss';
+
+.helper-line {
+    width: 100%;
+    height: 10px;
+    display: inline-block;
+    background-color: $primary-color;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+
+    li {
+        display: flex;
+    }
+
+    h3 {
+        font-size: 82px;
+        font-weight: bold;
+        font-family: $font-bold;
+        color: $text-primary;
+        text-transform: uppercase;
+    }
+
+    .icon {
+        margin-right: 24px;
+    }
+
+    .helper-line {
+        margin-left: 20px;
+    }
+}
