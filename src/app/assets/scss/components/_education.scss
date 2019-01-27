@@ -1,0 +1,68 @@
+@import './_vars.scss';
+@import './elements/_dot.scss';
+
+.education {
+    margin-bottom: 90px;
+
+    .header-title {
+        margin-bottom: 36px;
+    }
+
+    article {
+        section {
+            padding-left: 106px;
+
+            +section {
+                margin-top: 40px;
+            }
+
+            header {
+                position: relative;
+                margin-bottom: 32px;
+
+                .dot {
+                    background-color: $default-color;
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    top: 6px;
+                    left: -88px;
+                }
+
+                h4,
+                h5 {
+                    font-size: 51px;
+                    text-transform: uppercase;
+
+                }
+
+                h4 {
+                    font-family: $font-bold;
+                    margin-bottom: 32px;
+                    color: $primary-color;
+
+                    span {
+                        color: $date-color;
+                        font-size: inherit;
+                        font-family: $font-regular;
+                        text-transform: capitalize;
+                    }
+
+                }
+
+                h5 {
+                    font-family: $font-regular;
+                    color: $default-color;
+                }
+
+            }
+
+            p {
+                font-size: 31px;
+                font-weight: normal;
+                font-family: $font-regular;
+            }
+
+        }
+    }
+}

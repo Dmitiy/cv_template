@@ -22,8 +22,8 @@
     padding-right: 4.637096774193548%;
     padding-left: 4.879032258064516%;
 
-    header,
-    footer {
+    >header,
+    >footer {
         height: 152px;
         width: 100%;
     }
@@ -45,6 +45,11 @@
         width: 56.327985739750446%;
     }
 
+    .left-side {
+        // margin-right: 154px;
+        margin-right: 6.862745098039216%;
+    }
+
     @import './components/_preview.scss';
 
     @import './components/_header-title.scss';
@@ -54,5 +59,9 @@
     @import './components/_contact.scss';
 
     @import './components/_skills.scss';
+
+    @import './components/_education.scss';
+
+    @import './components/_experience.scss';
 
 }

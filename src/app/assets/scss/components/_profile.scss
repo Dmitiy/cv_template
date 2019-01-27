@@ -8,10 +8,12 @@
     }
 
     article {
-        p {
-            font-size: 31px;
-            font-weight: normal;
-            font-family: $font-regular;
+        section {
+            p {
+                font-size: 31px;
+                font-weight: normal;
+                font-family: $font-regular;
+            }
         }
     }
 }
