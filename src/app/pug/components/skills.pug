@@ -1,10 +1,7 @@
+include ../mixins/mixin
+
 .skills
-    ul.header-title
-        li
-            span.icon.icon__skills
-        li
-            h3 Skills
-        li.helper-line
+    +header-title('skills', 'Skills')
     ul.skills-level
         li
             p Creative

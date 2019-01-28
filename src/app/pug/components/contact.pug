@@ -1,15 +1,7 @@
-mixin contact-form__item(id, type, name, label, value)
-    .contact-form__item
-        label.txt-uppercase(for=id)= label
-        input(type=type, id=id, name=name, value=value)
+include ../mixins/mixin
 
 .contact
-    ul.header-title
-        li
-            span.icon.icon__phone
-        li
-            h3 Contact
-        li.helper-line
+    +header-title('phone', 'Contact')
     .contact-form
         form(autocomplete='off')
             fieldset

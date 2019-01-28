@@ -1,10 +1,7 @@
+include ../mixins/mixin
+
 .experience
-    ul.header-title
-        li
-            span.icon.icon__experience
-        li
-            h3 Experience
-        li.helper-line
+    +header-title('experience', 'Experience')
     article
         - for (var x = 0; x < 3; x++)
             section

@@ -21,6 +21,13 @@
     }
 
     .preview__title {
+
+        h1,
+        h2,
+        p {
+            text-transform: uppercase;
+        }
+
         h1 {
             font-size: 104px;
             font-family: $font-regular;
@@ -29,7 +36,6 @@
 
         h2 {
             font-size: 124px;
-            font-weight: bold;
             font-family: $font-bold;
             margin-bottom: 48px;
         }

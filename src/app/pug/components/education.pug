@@ -1,10 +1,7 @@
+include ../mixins/mixin
+    
 .education
-    ul.header-title
-        li
-            span.icon.icon__education
-        li
-            h3 Education
-        li.helper-line
+    +header-title('education', 'Education')
     article
         - for (var x = 0; x < 4; x++)
             section
