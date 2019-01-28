@@ -1,4 +1,6 @@
-
+//- - icons = [ 'experience', 'education', 'phone',
+                'profile', 'software', 'skills'
+            ]
 mixin header-title(icon, h3)
     ul.header-title
         li
@@ -7,7 +9,13 @@ mixin header-title(icon, h3)
             h3= h3
         li.helper-line
 
-mixin contact-form__item(id, type, name, label, value)
+mixin contact-form__item(id, kind_of, name, label, value)
     .contact-form__item
         label(for=id)= label
-        input(type=type, id=id, name=name, value=value)
+        input(type=kind_of, id=id, name=name, value=value)
+
+mixin skills-level(headline, percent)
+    li
+        p= headline
+        .skills-level__progress
+            span.progress__line(class='w-' + percent)

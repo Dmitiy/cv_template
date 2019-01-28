@@ -1,34 +1,19 @@
 @import './_vars.scss';
 
 .skills {
-    margin-bottom: 38px;
+    margin-bottom: 2.375rem;
 
     .header-title {
-        margin-bottom: 56px;
+        margin-bottom: 3.5rem;
     }
 
+    @import './_skills-level.scss';
+
     .skills-level {
-        li+li {
-            margin-top: 52px;
+        li {
+            padding-left: 92px / 980px * 100%;
+            padding-right: 92px / 980px * 100%;
         }
 
-        p {
-            font-size: 51px;
-            font-family: $font-regular;
-            margin-bottom: 32px;
-            text-transform: uppercase;
-            text-align: center;
-        }
-
-        .skills-level__dots {
-            display: flex;
-            align-items: center;
-
-            @import './elements/_dot.scss';
-
-            .dot+.dot {
-                margin-left: 19px;
-            }
-        }
     }
 }

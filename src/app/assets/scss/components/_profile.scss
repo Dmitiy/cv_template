@@ -1,16 +1,16 @@
 @import './_vars.scss';
 
 .profile {
-    margin-bottom: 90px;
+    margin-bottom: 5.625rem;
 
     .header-title {
-        margin-bottom: 36px;
+        margin-bottom: 2.25rem;
     }
 
     article {
         section {
             p {
-                font-size: 31px;
+                font-size: 1.9375rem;
                 font-weight: normal;
                 font-family: $font-regular;
             }

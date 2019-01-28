@@ -1,0 +1,30 @@
+@import './_vars.scss';
+
+.software {
+    margin-bottom: 2.375rem;
+
+    .header-title {
+        margin-bottom: 3.5rem;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+
+        .w-50+.w-50 {
+            // margin-left: 140px;
+            margin-left: 140px / 1264px * 100%;
+        }
+    }
+
+
+    @import './_skills-level.scss';
+
+    .skills-level {
+
+        p {
+            text-align: left;
+            padding-left: 3px;
+        }
+    }
+}

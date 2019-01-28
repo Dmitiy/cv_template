@@ -31,3 +31,16 @@
 .circle {
     border-radius: 50%;
 }
+
+// width from 0 to 100%
+@for $i from 0 through 100 {
+
+    // .progress__line-#{$i},
+    .w-#{$i} {
+        width: 1% * $i;
+    }
+}
+
+.row {
+    width: 100%;
+}

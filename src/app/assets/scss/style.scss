@@ -10,7 +10,6 @@
 
 @import './_helper-classes.scss';
 
-
 .page {
     max-width: 2480px;
     width: 100%;
@@ -30,38 +29,27 @@
 
     .wrapper {
         max-width: 2244px;
-        width: 90.483870967741935%;
+        width: 2244px / 2480px * 100%;
+        // width: 90.483870967741935%;
         margin: 0 auto;
         display: flex;
     }
 
     .left-side {
         max-width: 980px;
-        width: 43.672014260249554%;
+        width: 980px / 2244px * 100%;
+        padding-right: 154px / 2244px * 100%;
+        // width: 43.672014260249554%;
+        // padding-right: 154px;
+        // padding-right: 6.862745098039216%;
     }
 
     .right-side {
         max-width: 1264px;
-        width: 56.327985739750446%;
+        width: 1264px / 2244px * 100%;
+        // width: 56.327985739750446%;
     }
 
-    .left-side {
-        // margin-right: 154px;
-        margin-right: 6.862745098039216%;
-    }
-
-    @import './components/_preview.scss';
-
-    @import './components/_header-title.scss';
-
-    @import './components/_profile.scss';
-
-    @import './components/_contact.scss';
-
-    @import './components/_skills.scss';
-
-    @import './components/_education.scss';
-
-    @import './components/_experience.scss';
+    @import './layout.scss';
 
 }

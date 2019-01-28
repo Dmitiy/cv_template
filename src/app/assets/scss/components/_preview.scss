@@ -1,18 +1,18 @@
 @import './_vars.scss';
 
 .preview {
-    margin-bottom: 165px;
+    margin-bottom: 10.3125rem;
 
     .preview__logo {
-        margin-bottom: 75px;
+        margin-bottom: 4.6875rem;
 
         a {
             display: inline-block;
             border: 3px solid $primary-color;
-            padding: 27px;
+            padding: 1.6875rem;
 
             img {
-                max-width: 405px;
+                max-width: 25.3125rem;
                 width: 100%;
                 height: auto;
                 background-color: $primary-color;
@@ -29,19 +29,19 @@
         }
 
         h1 {
-            font-size: 104px;
+            font-size: 6.5rem;
             font-family: $font-regular;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
 
         h2 {
-            font-size: 124px;
+            font-size: 7.75rem;
             font-family: $font-bold;
-            margin-bottom: 48px;
+            margin-bottom: 3rem;
         }
 
         p {
-            font-size: 50px;
+            font-size: 3.125rem;
         }
     }
 }
