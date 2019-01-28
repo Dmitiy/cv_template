@@ -10,8 +10,7 @@
 
     article {
         section {
-            // padding-left: 106px;
-            padding-left: 106px / 1264px * 100%;
+            padding-left: 106px / $right-side-width * 100%;
 
             +section {
                 margin-top: 2.5rem;

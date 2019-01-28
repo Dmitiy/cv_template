@@ -11,43 +11,35 @@
 @import './_helper-classes.scss';
 
 .page {
-    max-width: 2480px;
+    max-width: $full-page-width;
     width: 100%;
     margin: 0 auto;
-    // padding: 152px 115px 152px 121px;
 
-    // padding-top: 6.129032258064516%;
-    // padding-bottom: 6.129032258064516%;
     padding-right: 4.637096774193548%;
     padding-left: 4.879032258064516%;
 
     >header,
     >footer {
-        height: 152px;
+        height: 9.5rem;
         width: 100%;
     }
 
     .wrapper {
-        max-width: 2244px;
-        width: 2244px / 2480px * 100%;
-        // width: 90.483870967741935%;
+        max-width: $wrapper-width;
+        width: $wrapper-width / $full-page-width * 100%;
         margin: 0 auto;
         display: flex;
     }
 
     .left-side {
-        max-width: 980px;
-        width: 980px / 2244px * 100%;
-        padding-right: 154px / 2244px * 100%;
-        // width: 43.672014260249554%;
-        // padding-right: 154px;
-        // padding-right: 6.862745098039216%;
+        max-width: $left-side-width;
+        width: $left-side-width / $wrapper-width * 100%;
+        padding-right: 154px / $wrapper-width * 100%;
     }
 
     .right-side {
-        max-width: 1264px;
-        width: 1264px / 2244px * 100%;
-        // width: 56.327985739750446%;
+        max-width: $right-side-width;
+        width: $right-side-width / $wrapper-width * 100%;
     }
 
     @import './layout.scss';

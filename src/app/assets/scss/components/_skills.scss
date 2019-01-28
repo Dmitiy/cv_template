@@ -11,8 +11,8 @@
 
     .skills-level {
         li {
-            padding-left: 92px / 980px * 100%;
-            padding-right: 92px / 980px * 100%;
+            padding-left: 92px / $left-side-width * 100%;
+            padding-right: 92px / $left-side-width * 100%;
         }
 
     }

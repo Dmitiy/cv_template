@@ -13,7 +13,7 @@
 
         .w-50+.w-50 {
             // margin-left: 140px;
-            margin-left: 140px / 1264px * 100%;
+            margin-left: 140px / $right-side-width * 100%;
         }
     }
 
