@@ -9,5 +9,5 @@ mixin header-title(icon, h3)
 
 mixin contact-form__item(id, type, name, label, value)
     .contact-form__item
-        label.txt-uppercase(for=id)= label
+        label(for=id)= label
         input(type=type, id=id, name=name, value=value)
