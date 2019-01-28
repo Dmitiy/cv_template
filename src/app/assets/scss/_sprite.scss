@@ -1,41 +1,41 @@
 .icon {
     background: url('../img/sprite/sprite1x.png') no-repeat top left;
-    height: 80px;
+    height: 5rem;
     display: inline-block;
 
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
         background: url('../img/sprite/sprite2x.png') no-repeat top left;
-        background-size: 259px 170px;
+        background-size: 16.1875rem 10.625rem;
     }
 
     &.icon__experience {
         background-position: 0 0;
-        width: 85px;
-        height: 82px;
+        width: 5.3125rem;
+        height: 5.125rem;
     }
 
     &.icon__education {
-        background-position: -89px 0;
-        width: 82px;
+        background-position: -5.5625rem 0;
+        width: 5.125rem;
     }
 
     &.icon__profile {
-        background-position: 0 -86px;
-        width: 82px;
+        background-position: 0 -5.375rem;
+        width: 5.125rem;
     }
 
     &.icon__software {
-        background-position: -86px -86px;
-        width: 82px;
+        background-position: -5.375rem -5.375rem;
+        width: 5.125rem;
     }
 
     &.icon__phone {
-        background-position: -175px 0;
-        width: 80px;
+        background-position: -10.9375rem 0;
+        width: 5rem;
     }
 
     &.icon__skills {
-        background-position: -175px -84px;
-        width: 80px;
+        background-position: -10.9375rem -5.25rem;
+        width: 5rem;
     }
 }
