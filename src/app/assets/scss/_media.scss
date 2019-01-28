@@ -1,0 +1,257 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media only screen and (min-width: 1281px) and (max-width: 1800px) {
+
+    html {
+        font-size: 10px;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    html {
+        font-size: 8px;
+
+        .page {
+            padding-left: 0;
+            padding-right: 0;
+
+            .wrapper {
+                flex-direction: column;
+
+                .left-side,
+                .right-side {
+                    max-width: 100%;
+                    width: 100%;
+                }
+
+                .header-title,
+                .skills {
+                    margin-bottom: 4.375rem;
+                }
+
+                .left-side {
+                    padding-right: 0;
+                    margin-bottom: 5.625rem;
+
+                    .profile article section p {
+                        line-height: 2;
+                        text-indent: 10rem;
+                    }
+
+                    .contact form,
+                    .skills .skills-level {
+                        padding-left: 10rem;
+                    }
+
+                    .skills .skills-level {
+                        justify-content: center;
+
+                        li {
+                            padding-left: 0;
+                            padding-right: 0;
+
+                            p {
+                                text-align: left;
+                            }
+                        }
+
+                        .skills-level__dots {
+                            justify-content: start;
+                        }
+                    }
+                }
+
+                .right-side {
+                    .software {
+                        .row {
+                            justify-content: center;
+                            padding-left: 10rem;
+
+                            .w-50 {
+                                +.w-50 {
+                                    margin-left: 0;
+                                }
+
+                                .skills-level .skills-level__progress {
+                                    max-width: 90%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    html {
+        font-size: 8px;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    html {
+        font-size: 8px;
+
+        .page {
+            .wrapper {
+                .left-side {
+
+                    .profile article section p {
+                        font-size: 13px;
+                        line-height: 1.5;
+                    }
+                }
+
+                .right-side {
+
+                    .experience,
+                    .education {
+                        article {
+                            header h4 span {
+                                font-size: 2.5rem !important;
+                            }
+
+                            p {
+                                font-size: 13px;
+                                line-height: 1.5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+    html {
+        font-size: 6px;
+
+        .page {
+            padding-left: 0;
+            padding-right: 0;
+
+            .wrapper {
+                flex-direction: column;
+
+                .left-side,
+                .right-side {
+                    max-width: 100%;
+                    width: 100%;
+                }
+
+                .header-title,
+                .skills {
+                    margin-bottom: 4.375rem;
+                }
+
+                .left-side {
+                    padding-right: 0;
+                    margin-bottom: 5.625rem;
+
+                    .profile article section p {
+                        line-height: 2;
+                        text-indent: 5rem;
+                        font-size: 13px;
+                    }
+
+                    .contact form,
+                    .skills .skills-level {
+                        padding-left: 5rem;
+                    }
+
+                    .skills .skills-level {
+                        justify-content: center;
+
+                        li {
+                            padding-left: 0;
+                            padding-right: 0;
+
+                            p {
+                                text-align: left;
+                            }
+                        }
+
+                        .skills-level__dots {
+                            justify-content: start;
+                        }
+                    }
+                }
+
+                .right-side {
+
+                    .experience,
+                    .education {
+                        article {
+                            header {
+                                h4 {
+                                    span {
+                                        font-size: 2.25rem;
+                                    }
+                                }
+                            }
+
+                            p {
+                                font-size: 13px;
+                                line-height: 1.5;
+                            }
+                        }
+                    }
+
+                    .software {
+                        .row {
+                            flex-direction: column;
+                            justify-content: center;
+
+                            .w-50 {
+                                width: 100%;
+
+                                +.w-50 {
+                                    margin-left: 0;
+                                    margin-top: 3.25rem;
+                                }
+
+                                .skills-level .skills-level__progress {
+                                    max-width: 90%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

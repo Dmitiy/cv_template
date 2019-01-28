@@ -9,10 +9,10 @@ mixin header-title(icon, h3)
             h3= h3
         li.helper-line
 
-mixin contact-form__item(id, kind_of, name, label, value)
+mixin contact-form__item(id, kind_of, name, label, value, tab_index)
     .contact-form__item
         label(for=id)= label
-        input(type=kind_of, id=id, name=name, value=value)
+        input(type=kind_of, id=id, name=name, value=value, tabindex=tab_index)
 
 mixin skills-level(headline, percent)
     li
